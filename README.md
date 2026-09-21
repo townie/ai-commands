@@ -2,15 +2,41 @@
 
 Quick prompts for ACE + Claude. Type a command in your message to switch modes.
 
-Source: printed reference sheet — CONTROL, ANALYZE, STRESS TEST, VERIFY.
-
 ## Install
 
-### Cursor / Claude Code skill
-Copy `.claude/skills/ai-commands/` into your project (or user skills dir).
+```bash
+npx skills add townie/ai-commands
+```
 
-### Grok Bot
-The same `SKILL.md` is the recipe body for a shared skill named **AI Commands**.
+Project install (default):
+
+```bash
+npx skills add townie/ai-commands -y
+```
+
+Global (all projects):
+
+```bash
+npx skills add townie/ai-commands -g -y
+```
+
+Claude Code only:
+
+```bash
+npx skills add townie/ai-commands -a claude-code -y
+```
+
+List without installing:
+
+```bash
+npx skills add townie/ai-commands --list
+```
+
+Uses the open [skills](https://github.com/vercel-labs/skills) CLI (`npx skills`). Works with Claude Code, Cursor, Codex, OpenCode, and many other agents.
+
+### Manual
+
+Copy `skills/ai-commands/` into your project’s `.claude/skills/` (or agent-equivalent skills dir).
 
 ## Commands
 

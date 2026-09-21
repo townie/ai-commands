@@ -1,5 +1,5 @@
 ---
-name: AI Commands
+name: ai-commands
 description: >-
   Use when the user types an AI Commands mode phrase such as QUESTIONS FIRST,
   EXECUTE, JUST DO IT, KEEP SIMPLE, ASSUMPTION AUDIT, SHOW ME THE OPTIONS,
